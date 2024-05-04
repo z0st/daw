@@ -56,7 +56,7 @@ export const Length = ({
           {LENGTHS.map((length) => (
             <li
               key={length.value}
-              className="text-white text-base hover:from-blue-500/40 hover:to-pink-500/40 bg-gradient-to-r transition-all duration-200 p-2 rounded-md cursor-pointer"
+              className="text-white text-base hover:from-pink-500/40 hover:to-amber-400/40 bg-gradient-to-r transition-all duration-200 p-2 rounded-md cursor-pointer"
               onClick={() => onChange(length.value)}
             >
               {length.label} seconds

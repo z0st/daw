@@ -6,8 +6,8 @@ export default function Home() {
     <section className="h-screen p-8 lg:p-24 bg-stone-950 relative z-[1] overflow-y-auto">
       <Form>
         <header>
-          <Image src={"/SoundinBeat_logo.png"} alt="Logo" width={128} />
-          <h1 className="text-white font-bold text-3xl">
+          <Image src={"/SoundinBeat_logo.png"} alt="Logo" width={172} />
+          <h1 className="mt-11 text-white font-bold text-3xl">
             Start making music with AI
           </h1>
           <h2 className="text-white/70 font-medium mt-2 text-lg">

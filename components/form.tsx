@@ -35,7 +35,7 @@ class CallbackStreamer extends BaseStreamer {
 export const Form = ({ children }: { children: React.ReactNode }) => {
   const [modelLoaded, setModelLoaded] = useState(false);
   const [progress, setProgress] = useState(0);
-  const [statusText, setStatusText] = useState("Loading model (656MB)...");
+  const [statusText, setStatusText] = useState("Loading AI beat maker model...");
   const [loadProgress, setLoadProgress] = useState({});
   const [track, setTrack] = useState("");
   const [shareLoading, setShareLoading] = useState(false);
@@ -96,7 +96,7 @@ export const Form = ({ children }: { children: React.ReactNode }) => {
         ? "Ready!"
         : `Loading In-Browser model (${(
             progress * 100
-          ).toFixed()}% of 656MB)...`
+          ).toFixed()}%)...`
     );
     if (progress === 1) {
       setTimeout(() => setModelLoaded(true), 1500);

@@ -6,7 +6,7 @@ export default function Home() {
     <section className="h-screen p-8 lg:p-24 bg-stone-950 relative z-[1] overflow-y-auto">
       <Form>
         <header>
-          <Image src={"https://ik.imagekit.io/z0st/SoundinBeat_logo.png?updatedAt=1714821823826"} alt="Logo" fill width={128} />
+          <Image src={"/SoundinBeat_logo.png"} alt="Logo" width={128} />
           <h1 className="text-white font-bold text-3xl">
             Start making music with AI
           </h1>

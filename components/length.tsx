@@ -32,7 +32,7 @@ export const Length = ({
       <p className="text-white font-semibold text-base mb-4">Duration</p>
       <div className="relative z-1">
         <p
-          className="text-transparent bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-5xl font-extrabold cursor-pointer relative"
+          className="text-transparent bg-gradient-to-r from-pink-400 to-amber-400 bg-clip-text text-5xl font-extrabold cursor-pointer relative"
           onClick={() => setOpen(!open)}
         >
           {label}s
